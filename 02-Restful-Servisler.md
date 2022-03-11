@@ -1,0 +1,7 @@
+# Restful Servisler
+- `Rest 2000 yılında bir sunucu ve istemci arasında hızlı ve kolay iletişimi sağlamak amacıyla ortaya cıkmış bir servis yapısıdır. Http protokolü ile çalışır. Açılımı Representational State Transfer dır. Servis yönelimli yani SOA mimarileriyle geliştirilen yazılımlarda tercih edilir. Rest standartlarına göre yazılmış web servislere RestFul servisler denir.`
+- `Rest yapısıyla çalışan servislerle Json, Xml ve Html formatında veriler taşınabilir. Http protokolüyle çalışıyor olması basit ve hızlı bir iletişim sunar.`
+# RestFull Servislerde Http Metotlarının Kullanımı
+- Http metotlarından `GET, PUT, DELETE idempotent` yapıda iken `POST idempotent değildir.`
+- Peki nedir bu idempotent?`Birden fazla defa çağırılmasında sakınca olmayan, nihai sonucu değiştirmeyecek çağrımlara idempotent yapıda diyebiliriz.` Örneğin bir Http Get metodunu üst üste istediğiniz kadar çağırabilirsiniz. Bu sonucu değiştiremeyecektir. Yada Http Delete metodunu bir kere çağırdığınızda veriyi sildiğinizi düşünelim. 2. yada 3. çağrımlarda veride bir değişiklik olmaz. Zaten silinmiştir.
+- Günün sonunda POST ile güncelleme de silme de yapabilirsiniz. Peki neden DELETE ve PUT kullanmalıyz? Rest Http metotları ile veriye anlamlı ve doğru şekilde ulaşmayı amaçlar. Bir request çağrısına baktığınızda onun ne iş yaptığını kolayca anlayabilmelisiniz. Http metotlarının doğru yerde kullanılması bize okunabilirlik gücünü getirir.
