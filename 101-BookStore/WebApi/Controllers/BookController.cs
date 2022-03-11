@@ -36,7 +36,7 @@ namespace WebApi.Controllers
             },
         };
 
-        // Action Methodlarımı yaratcam yani Http request lerimi karşılacak methodlarımı yaratcam.
+        // Action Methodlarımı yaratcam yani Http request lerimi karşılayacak methodlarımı yaratcam.
         
         [HttpGet]
         public List<Book> GetBooks()//Tüm kitaplarımı sıralı şekilde get(read) ettiğim action methodum.
