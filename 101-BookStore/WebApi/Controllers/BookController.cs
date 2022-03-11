@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers
 {
     [ApiController]//Controller 'ımın bir http response döneceğini bu attribute ile taahhüt ettim.
-    [Route("[Controller]s")]//GElen request'i hangi resourc'ın karşılayacağını belirlerleyen route attribute'ımı ekledim.
+    [Route("[Controller]s")]//Gelen request'i hangi resourc'ın karşılayacağını belirlerleyen route attribute'ımı ekledim.
     public class BookController : ControllerBase// BookController class'ımın bir controller olması için ControllerBase class'ından kalıtım aldım.
     {
         //External veya inmemory bir database'imiz şu an için olmadığından static bir book listesi tanımlayacaz ve bu kitap listesinin initial değerleri olacak ve static olarak tanımladığımız için uygulama çalıştıkça erişebileceğiz.
