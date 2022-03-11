@@ -1,0 +1,5 @@
+# İlişkisel ve NoSql Veritabanları
+## RDMS (Relational Database Management System) - İlişkisel VeriTabanı Yönetim Sistemleri
+- İlişkisel Veri Tabanları veriyi birbiri ile ilişkili bir şekilde tutmaya yarar. Tablolar aracılığıyla veriler hem kendi içlerinde hem tablolar arasında ilişkili bir şekilde saklanır. Tablolar satırlar ve sütunlardan oluşur. Bu satır ve sütunlar verileri daha anlamlı tutmamızı ve okumamızı sağlar.
+- Uzun bir paragraf ile yazılmış karşılaştırma makalelerini düşünün. Bir de onu özetleyen karşılaştırmalı bir tablo düşününün. Mantıksal olarak veriler yanyana koyulmuş ve neye göre bir karşılaştırma yapılacağı çok açıktır. Tabloya kısa bir göz attığınızda verilmek istenen mesajı çok rahat olarak alabilirsiniz. İlişkisel veritabanı da insana aynı hissi verir.
+- `İlişkisel veri tabanı yönetim sistemleri ise, veritabanı oluşturma, verileri yönetme ve saklama gibi işlemleri kolayca yapmanıza olanak sağlayan yazılımlardır. Çoğu veri tabanına erişim için SQL(Structured Query Language) kullanılır.
