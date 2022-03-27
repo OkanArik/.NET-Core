@@ -1,4 +1,4 @@
-## Öreklemesi yapılan konuların konu anlatımları
+## Örneklemesi yapılan konuların konu anlatımları
 ---
 ### Bir Projeye Entity Framework Core Nasıl Eklenir?
 - Bir .Net Core WebApi projesinde Ef Core kullanabilmek için öncelikle gerekli paketleri projeye dahil etmeliyiz.Dotnet'in paket yöneticisi Nuget Package Manager'dır.Localde çalışma yaparken gerçek bir veri tabanı ile çalışmak maliyetli olabilir. Bunun yerine hem implementasyonu kolay olan hem de hızlı çalışan InMemory database kullanılması önerilir. Ef Core'un tüm özelliklerini in memory database implemente ederek kullanabiliriz. BookStore uygulamamıza da In Memory database implemente ederek EF Core u kullanıcaz.
